@@ -1,5 +1,5 @@
 from .modelo import Tipo, Prioridad, Estado, ErrorDeAplicacion, ErrorDeValidacion
-from .validaciones import (parsear_entero_positivo, parsear_legajo, parsear_enum,
+from .validations import (parsear_entero_positivo, parsear_legajo, parsear_enum,
                            construir_nueva_solicitud)
 
 CRITERIOS = ("estado", "prioridad", "tipo", "legajo")
