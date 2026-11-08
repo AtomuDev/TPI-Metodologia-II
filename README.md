@@ -13,11 +13,11 @@ Aplicación de consola en Python que permite registrar solicitudes de estudiante
 El sistema fue elegido como caso de trabajo para el TPI: la funcionalidad visible es simple, y el foco del trabajo está en diagnosticar la calidad interna del código, identificar deuda técnica y code smells, aplicar SOLID y Clean Code, y ejecutar refactorings seguros comparando el comportamiento antes y después.
 
 
-Materia: Metodología de Sistemas II · Comisión: _Completar_ · Fecha: _Completar_
+Materia: Metodología de Sistemas II · Comisión: 12 · Fecha: 08/11/26
 
 ## Tecnologías
 
-- Python 3.8 o superior
+- Python 3.11 o superior
 - Módulos de la biblioteca estándar: `json` y `os`
 - Persistencia en archivo JSON (`datos.json`)
 - Sin dependencias externas
@@ -160,7 +160,7 @@ Por indicación de la cátedra, se deben usar **datos sintéticos o anonimizados
 
 ```
 .
-├── gestor_solicitudes.py   # Código del sistema
+├── main.py   # Código del sistema
 ├── README.md
 └── docs/                   # Checklist de pruebas, code review, evidencias y decisiones técnicas
 ```
