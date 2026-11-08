@@ -1,8 +1,8 @@
 import os
 
-from solicitudes.consola import ConsolaSolicitudes
-from solicitudes.repositorio import RepositorioJSON, ErrorPersistencia
-from solicitudes.servicio import ServicioSolicitudes
+from solicitudes.console import ConsolaSolicitudes
+from solicitudes.repository import RepositorioJSON, ErrorPersistencia
+from solicitudes.services import ServicioSolicitudes
 
 RUTA_DATOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "datos.json")
 
